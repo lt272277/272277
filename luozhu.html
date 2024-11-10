@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>luozhu_2024</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" type="image/x-icon" href="src/favicon.ico">
+<link rel="stylesheet" type="text/css" href="src/luozhu.css">
+</head>
+<body>
+<form name="form">
+<!--段数-->
+	<input title="01,02,03,04,05,06,07," type="hidden" value="1段" name="n_1段">
+	<input title="08,09,10,11,12,13,14," type="hidden" value="2段" name="n_2段">
+	<input title="15,16,17,18,19,20,21," type="hidden" value="3段" name="n_3段">
+	<input title="22,23,24,25,26,27,28," type="hidden" value="4段" name="n_4段">
+	<input title="29,30,31,32,33,34,35," type="hidden" value="5段" name="n_5段">
+	<input title="36,37,38,39,40,41,42," type="hidden" value="6段" name="n_6段">
+	<input title="43,44,45,46,47,48,49," type="hidden" value="7段" name="n_7段">
+<!--合数-->
+	<input title="01,10," type="hidden" value="1合" name="n_1合">
+	<input title="02,11,20," type="hidden" value="2合" name="n_2合">
+	<input title="03,12,21,30," type="hidden" value="3合" name="n_3合">
+	<input title="04,13,22,31,40," type="hidden" value="4合" name="n_4合">
+	<input title="05,14,23,32,41," type="hidden" value="5合" name="n_5合">
+	<input title="06,15,24,33,42," type="hidden" value="6合" name="n_6合">
+	<input title="07,16,25,34,43," type="hidden" value="7合" name="n_7合">
+	<input title="08,17,26,35,44," type="hidden" value="8合" name="n_8合">
+	<input title="09,18,27,36,45," type="hidden" value="9合" name="n_9合">
+	<input title="19,28,37,46," type="hidden" value="10合" name="n_10合">
+	<input title="29,38,47," type="hidden" value="11合" name="n_11合">
+	<input title="39,48," type="hidden" value="12合" name="n_12合">
+	<input title="49," type="hidden" value="13合" name="n_13合">
+					<!--五行2024-->
+	<input title="02,03,10,11,24,25,32,33,40,41," type="hidden" value="金" name="n_金">
+	<input title="06,07,14,15,22,23,36,37,44,45," type="hidden" value="木" name="n_木">
+	<input title="12,13,20,21,28,29,42,43," type="hidden" value="水" name="n_水">
+	<input title="01,08,09,16,17,30,31,38,39,46,47," type="hidden" value="火" name="n_火">
+	<input title="04,05,18,19,26,27,34,35,48,49," type="hidden" value="土" name="n_土">
+<!--半波-->
+	<input title="01,07,13,19,23,29,35,45," type="hidden" value="红单" name="n_红单">
+	<input title="05,11,17,21,27,33,39,43,49," type="hidden" value="绿单" name="n_绿单">
+	<input title="03,09,15,25,31,37,41,47," type="hidden" value="蓝单" name="n_蓝单">
+	<input title="02,08,12,18,24,30,34,40,46," type="hidden" value="红双" name="n_红双">
+	<input title="06,16,22,28,32,38,44," type="hidden" value="绿双" name="n_绿双">
+	<input title="04,10,14,20,26,36,42,48," type="hidden" value="蓝双" name="n_蓝双">
+<!--合单双-->
+	<input title="01,03,05,07,09,10,12,14,16,18,21,23,25,27,29,30,32,34,36,38,41,43,45,47,49," type="hidden" value="合单" name="n_合单">
+	<input title="02,04,06,08,11,13,15,17,19,20,22,24,26,28,31,33,35,37,39,40,42,44,46,48," type="hidden" value="合双" name="n_合双">
+<!--大小-->
+	<input title="25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49," type="hidden" value="大" name="n_大">
+	<input title="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24," type="hidden" value="小" name="n_小">
+<!--单双-->
+	<input title="01,03,05,07,09,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49," type="hidden" value="单" name="n_单">
+	<input title="02,04,06,08,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48," type="hidden" value="双" name="n_双">
+					<!--家野2024-->
+	<input title="04,06,07,08,10,11,16,18,19,20,22,23,28,30,31,32,34,35,40,42,43,44,46,47," type="hidden" value="家禽" name="n_家禽">
+	<input title="01,02,03,05,09,12,13,14,15,17,21,24,25,26,27,29,33,36,37,38,39,41,45,48,49," type="hidden" value="野兽" name="n_野兽">
+<!--半单双-->
+	<input title="25,27,29,31,33,35,37,39,41,43,45,47,49," type="hidden" value="大单" name="n_大单">
+	<input title="26,28,30,32,34,36,38,40,42,44,46,48," type="hidden" value="大双" name="n_大双">
+	<input title="01,03,05,07,09,11,13,15,17,19,21,23," type="hidden" value="小单" name="n_小单">
+	<input title="02,04,06,08,10,12,14,16,18,20,22,24," type="hidden" value="小双" name="n_小双">
+<!--头数-->
+	<input title="01,02,03,04,05,06,07,08,09," type="hidden" value="0头" name="n_0头">
+	<input title="10,11,12,13,14,15,16,17,18,19," type="hidden" value="1头" name="n_1头">
+	<input title="20,21,22,23,24,25,26,27,28,29," type="hidden" value="2头" name="n_2头">
+	<input title="30,31,32,33,34,35,36,37,38,39," type="hidden" value="3头" name="n_3头">
+	<input title="40,41,42,43,44,45,46,47,48,49," type="hidden" value="4头" name="n_4头">
+<!--尾数-->
+	<input title="10,20,30,40," type="hidden" value="0尾" name="n_0尾">
+	<input title="01,11,21,31,41," type="hidden" value="1尾" name="n_1尾">
+	<input title="02,12,22,32,42," type="hidden" value="2尾" name="n_2尾">
+	<input title="03,13,23,33,43," type="hidden" value="3尾" name="n_3尾">
+	<input title="04,14,24,34,44," type="hidden" value="4尾" name="n_4尾">
+	<input title="05,15,25,35,45," type="hidden" value="5尾" name="n_5尾">
+	<input title="06,16,26,36,46," type="hidden" value="6尾" name="n_6尾">
+	<input title="07,17,27,37,47," type="hidden" value="7尾" name="n_7尾">
+	<input title="08,18,28,38,48," type="hidden" value="8尾" name="n_8尾">
+	<input title="09,19,29,39,49," type="hidden" value="9尾" name="n_9尾">
+<!--波色-->
+	<input title="01,02,07,08,12,13,18,19,23,24,29,30,34,35,40,45,46," type="hidden" value="红" name="n_红">
+	<input title="05,06,11,16,17,21,22,27,28,32,33,38,39,43,44,49," type="hidden" value="绿" name="n_绿">
+	<input title="03,04,09,10,14,15,20,25,26,31,36,37,41,42,47,48," type="hidden" value="蓝" name="n_蓝">
+					<!--生肖2024-->
+	<input title="01,13,25,37,49," type="hidden" value="龙" name="n_龙">
+	<input title="02,14,26,38," type="hidden" value="兔" name="n_兔">
+	<input title="03,15,27,39," type="hidden" value="虎" name="n_虎">
+	<input title="04,16,28,40," type="hidden" value="牛" name="n_牛">
+	<input title="05,17,29,41," type="hidden" value="鼠" name="n_鼠">
+	<input title="06,18,30,42," type="hidden" value="猪" name="n_猪">
+	<input title="07,19,31,43," type="hidden" value="狗" name="n_狗">
+	<input title="08,20,32,44," type="hidden" value="鸡" name="n_鸡">
+	<input title="09,21,33,45," type="hidden" value="猴" name="n_猴">
+	<input title="10,22,34,46," type="hidden" value="羊" name="n_羊">
+	<input title="11,23,35,47," type="hidden" value="马" name="n_马">
+	<input title="12,24,36,48," type="hidden" value="蛇" name="n_蛇">
+<!--转换-->
+	<textarea oninput="countma();" name="inputtxt" wrap="soft"></textarea>
+	<input onclick="resetinput();" type="button" value="清除" name="qingchu">
+	<input oninput="countma();" type="text" pattern="[1-9]\d{0,4}" required min="1" max="99999" maxlength="5" name="jine" placeholder="金额">
+	<input onclick="fuzhi();" type="button" value="复制">
+	<textarea name="resultstxt" wrap="off" readonly="readonly"></textarea>
+</form>
+<form name="form2">
+<!--号码-->
+	<input title="1," type="hidden" value="1" name="n_1">
+	<input title="2," type="hidden" value="2" name="n_2">
+	<input title="3," type="hidden" value="3" name="n_3">
+	<input title="4," type="hidden" value="4" name="n_4">
+	<input title="5," type="hidden" value="5" name="n_5">
+	<input title="6," type="hidden" value="6" name="n_6">
+	<input title="7," type="hidden" value="7" name="n_7">
+	<input title="8," type="hidden" value="8" name="n_8">
+	<input title="9," type="hidden" value="9" name="n_9">
+	<input title="01," type="hidden" value="01" name="n_01">
+	<input title="02," type="hidden" value="02" name="n_02">
+	<input title="03," type="hidden" value="03" name="n_03">
+	<input title="04," type="hidden" value="04" name="n_04">
+	<input title="05," type="hidden" value="05" name="n_05">
+	<input title="06," type="hidden" value="06" name="n_06">
+	<input title="07," type="hidden" value="07" name="n_07">
+	<input title="08," type="hidden" value="08" name="n_08">
+	<input title="09," type="hidden" value="09" name="n_09">
+	<input title="10," type="hidden" value="10" name="n_10">
+	<input title="11," type="hidden" value="11" name="n_11">
+	<input title="12," type="hidden" value="12" name="n_12">
+	<input title="13," type="hidden" value="13" name="n_13">
+	<input title="14," type="hidden" value="14" name="n_14">
+	<input title="15," type="hidden" value="15" name="n_15">
+	<input title="16," type="hidden" value="16" name="n_16">
+	<input title="17," type="hidden" value="17" name="n_17">
+	<input title="18," type="hidden" value="18" name="n_18">
+	<input title="19," type="hidden" value="19" name="n_19">
+	<input title="20," type="hidden" value="20" name="n_20">
+	<input title="21," type="hidden" value="21" name="n_21">
+	<input title="22," type="hidden" value="22" name="n_22">
+	<input title="23," type="hidden" value="23" name="n_23">
+	<input title="24," type="hidden" value="24" name="n_24">
+	<input title="25," type="hidden" value="25" name="n_25">
+	<input title="26," type="hidden" value="26" name="n_26">
+	<input title="27," type="hidden" value="27" name="n_27">
+	<input title="28," type="hidden" value="28" name="n_28">
+	<input title="29," type="hidden" value="29" name="n_29">
+	<input title="30," type="hidden" value="30" name="n_30">
+	<input title="31," type="hidden" value="31" name="n_31">
+	<input title="32," type="hidden" value="32" name="n_32">
+	<input title="33," type="hidden" value="33" name="n_33">
+	<input title="34," type="hidden" value="34" name="n_34">
+	<input title="35," type="hidden" value="35" name="n_35">
+	<input title="36," type="hidden" value="36" name="n_36">
+	<input title="37," type="hidden" value="37" name="n_37">
+	<input title="38," type="hidden" value="38" name="n_38">
+	<input title="39," type="hidden" value="39" name="n_39">
+	<input title="40," type="hidden" value="40" name="n_40">
+	<input title="41," type="hidden" value="41" name="n_41">
+	<input title="42," type="hidden" value="42" name="n_42">
+	<input title="43," type="hidden" value="43" name="n_43">
+	<input title="44," type="hidden" value="44" name="n_44">
+	<input title="45," type="hidden" value="45" name="n_45">
+	<input title="46," type="hidden" value="46" name="n_46">
+	<input title="47," type="hidden" value="47" name="n_47">
+	<input title="48," type="hidden" value="48" name="n_48">
+	<input title="49," type="hidden" value="49" name="n_49">
+</form>
+<script type="text/javascript" src="src/clipboard.min.js"></script>
+<script type="text/javascript" src="src/luozhu.js"></script>
+</body>
+</html>
